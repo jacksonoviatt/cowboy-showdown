@@ -34,7 +34,7 @@ document.querySelector('.cpu img').src = cpu.cowboy.image;
 
 
 
-function battle(){
+function showdown(){
     if(playerHp > 0 && cpuHp > 0){
         cpuHp = (cpuHp - playerShot);
         playerHp = (playerHp - cpuShot);
@@ -53,7 +53,7 @@ function battle(){
 let shootButton = document.querySelector('.game-button');
 shootButton.innerHTML = "Shot";
 shootButton.addEventListener('click', function(){
-    battle();
+    showdown();
 });
 
 
