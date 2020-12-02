@@ -44,7 +44,7 @@ function showdown(){
         document.querySelector(".statement").innerHTML = "Draw";
         }else if (cpuHp <= 0){
             document.querySelector(".statement").innerHTML = "You win";
-        }else if (cpuHp <= 0 && playerHp <= 0){
+        }else if (playerHp <= 0){
                 document.querySelector(".statement").innerHTML = "You lose";
         }else {
             null
